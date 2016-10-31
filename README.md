@@ -1,6 +1,8 @@
 # refresh-wifi
 
-Small app to remove stale macOS prefrences. It removes WiFi preferences from `/Library/Preferences/SystemConfiguration/`.
+![](logo.png)
+
+Small app to remove stale macOS WiFi preferences from `/Library/Preferences/SystemConfiguration/` to "refresh" WiFi.
 
 It basically executes this shell script:
 
@@ -12,6 +14,12 @@ sudo rm -f
     /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
     /Library/Preferences/SystemConfiguration/preferences.plist
 ```
+
+## Motivation
+
+After some time, or after macOS updates WiFi stops working in stable way. Either it loses connection every few minutes, requires restarting, router restarting, etc.
+
+Often it's recommended simply to remove WiFi preferences and restart your computer. It works for me and people around me, thus I created this app so not only me, but less tech savvy people could do this themselves without any help.
 
 ## Use
 
