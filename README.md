@@ -15,6 +15,6 @@ sudo rm -f
 
 ## Use
 
-Download app from realese tab and run it.
+Download app from [realese tab](https://github.com/trimailov/refresh-wifi/releases/latest), unzip it and run it.
 
 While you run it, you'll be prompted that you'll need to turn off your wifi and enter your password. Press OK and restart your computer.
