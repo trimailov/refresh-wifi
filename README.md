@@ -1,6 +1,7 @@
 # refresh-wifi
 
-![](logo.png)
+<img src="logo.png" width="150px">
+
 
 Small app to remove stale macOS WiFi preferences from `/Library/Preferences/SystemConfiguration/` to "refresh" WiFi.
 
